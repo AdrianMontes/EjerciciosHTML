@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+    <style>
+      .tabla,
+      .fila,
+      .columna {
+        border: solid 1px black;
+        text-align: center;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <table class="tabla">
+            <tr class="fila">
+              <td colspan="3">Ejercicios de tablas</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">A</td>
+              <td class="columna">B</td>
+              <td class="columna">C</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">1</td>
+              <td class="columna">2</td>
+              <td class="columna">3</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">4</td>
+              <td class="columna">5</td>
+              <td class="columna">6</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">7</td>
+              <td class="columna">8</td>
+              <td class="columna">9</td>
+            </tr>
+            <tr class="fila">
+              <td colspan="3" class="columna">Apartado A</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="tabla">
+            <tr class="fila">
+              <td colspan="3" class="columna">Ejercicios de tablas</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">A</td>
+              <td class="columna">B</td>
+              <td class="columna">C</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">1</td>
+              <td class="columna" colspan="2">2</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna" rowspan="2">4</td>
+              <td class="columna">5</td>
+              <td class="columna">6</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna">8</td>
+              <td class="columna">9</td>
+            </tr>
+            <tr class="fila">
+              <td class="columna" colspan="3">Apartado B</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
